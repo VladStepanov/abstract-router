@@ -3,7 +3,7 @@
     {{ $route.fullPath }}
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about?t=5">About</router-link>
     </div>
     <router-view/>
   </div>
